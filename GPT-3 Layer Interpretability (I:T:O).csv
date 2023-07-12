@@ -1,0 +1,6 @@
+GPT-3 Layer Interpretability (I/T/O)
+,,,
+Layer number,Name of GPT-3 neural network layer,Type of layer,Description of its function in the neural network as a whole
+1,Input Embedding Layer,Embedding,Converts input tokens into continuous vectors and incorporates positional encoding to maintain information about the relative positions of tokens in the input sequence.
+2-95,Transformer Layer,Transformer,"Processes input token representations through self-attention mechanisms and feed-forward neural networks, capturing relationships between tokens, learning syntactic and semantic information, and refining token representations."
+96,Output Layer,Output,"Generates predictions by converting processed token representations back into a probability distribution over the vocabulary, selecting the token with the highest probability as the prediction."

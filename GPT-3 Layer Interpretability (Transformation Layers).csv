@@ -1,0 +1,27 @@
+GPT-3 Layer Interpretability (Transformation Layers)
+,,,,,,
+Layer number,Name of GPT-3 neural network layer,Category,Subcategory 1,Subcategory 2,Subcategory 3,Description of its function in the neural network as a whole
+2-4,Transformer Layer,Syntactic,Basic,Local,Short-range,Captures basic syntactic information for local word relationships and simple grammatical structures within short distances.
+5-8,Transformer Layer,Syntactic,Basic,Local,Long-range,Learns basic syntactic information for local word relationships and simple grammatical structures across longer distances.
+9-12,Transformer Layer,Syntactic,Basic,Long-range,Short-range,Focuses on basic syntactic information for long-range dependencies and more complex grammatical relationships within short distances.
+13-16,Transformer Layer,Syntactic,Basic,Long-range,Long-range,Learns basic syntactic information for long-range dependencies and more complex grammatical relationships across longer distances.
+17-20,Transformer Layer,Syntactic,Complex,Local,Short-range,Captures complex syntactic information for local word relationships and intricate sentence structures within short distances.
+21-24,Transformer Layer,Syntactic,Complex,Local,Long-range,Learns complex syntactic information for local word relationships and intricate sentence structures across longer distances.
+25-28,Transformer Layer,Syntactic,Complex,Long-range,Short-range,Focuses on complex syntactic information for long-range dependencies and more elaborate sentence structures within short distances.
+29-32,Transformer Layer,Syntactic,Complex,Long-range,Long-range,Learns complex syntactic information for long-range dependencies and more elaborate sentence structures across longer distances.
+33-36,Transformer Layer,Semantic,Local,Single words,Independent,"Represents the meaning of individual words in the context of the input sequence, focusing on words that do not depend on other words for meaning."
+37-40,Transformer Layer,Semantic,Local,Single words,Dependent,"Captures the meaning of individual words in the context of the input sequence, focusing on words that depend on other words for meaning."
+41-44,Transformer Layer,Semantic,Local,Short phrases,Independent,"Represents the meaning of short phrases and expressions in context, focusing on phrases that do not depend on other phrases for meaning."
+45-48,Transformer Layer,Semantic,Local,Short phrases,Dependent,"Captures the meaning of short phrases and expressions in context, focusing on phrases that depend on other phrases for meaning."
+49-52,Transformer Layer,Semantic,Global,Sentence level,Independent,"Learns to represent the meaning of sentences and their relationships within the input sequence, focusing on sentences that do not depend on other sentences for meaning."
+53-56,Transformer Layer,Semantic,Global,Sentence level,Dependent,"Captures the meaning of sentences and their relationships within the input sequence, focusing on sentences that depend on other sentences for meaning."
+57-60,Transformer Layer,Semantic,Global,Multi-sentence level,Independent,"Represents the meaning of longer phrases and the overall context of the input sequence, focusing on phrases that do not depend on other phrases for meaning."
+61-64,Transformer Layer,Semantic,Global,Multi-sentence level,Dependent,"Captures the meaning of longer phrases and the overall context of the input sequence, focusing on phrases that depend on other phrases for meaning."
+65-68,Transformer Layer,Abstract,Coherence,Local,Sentence level,"Ensures that the generated output is coherent and contextually consistent at a local level (e.g., within sentences), focusing on maintaining coherence within individual sentences."
+69-72,Transformer Layer,Abstract,Coherence,Local,Multi-sentence level,"Ensures that the generated output is coherent and contextually consistent at a local level (e.g., within sentences), focusing on maintaining coherence across multiple sentences."
+73-76,Transformer Layer,Abstract,Coherence,Global,Sentence level,"Maintains coherence in the generated output at a global level (e.g., across multiple sentences or paragraphs), focusing on maintaining coherence within individual sentences."
+77-80,Transformer Layer,Abstract,Coherence,Global,Multi-sentence level,"Maintains coherence in the generated output at a global level (e.g., across multiple sentences or paragraphs), focusing on maintaining coherence across multiple sentences."
+81-84,Transformer Layer,Abstract,Creativity,Context adaptation,Sentence level,"Adapts the generated output to the overall context of the input, considering prior information and context at a sentence level."
+85-88,Transformer Layer,Abstract,Creativity,Context adaptation,Multi-sentence level,"Adapts the generated output to the overall context of the input, considering prior information and context at a multi-sentence level."
+89-92,Transformer Layer,Abstract,Creativity,Novel generation,Sentence level,"Generates creative and contextually relevant predictions, considering the overall context of the input and producing novel output at a sentence level."
+93-95,Transformer Layer,Abstract,Creativity,Novel generation,Multi-sentence level,"Generates creative and contextually relevant predictions, considering the overall context of the input and producing novel output at a multi-sentence level."
